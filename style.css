@@ -15,8 +15,12 @@ a{
     text-align: center;
     padding-top: 60px;
 }
+.container .text h1{
+    font-size: 50px;
+}
 .container .text p{
     padding-top: 20px;
+    font-size: 20px;
 
 }
 .container .info{
@@ -55,4 +59,8 @@ a{
 .container .btns button:active{
     background-color:  #CFE7FF;
     color: gray;
+}
+
+.active_btn {
+    background-color: rgb(107, 129, 189)!important;
 }
