@@ -64,3 +64,26 @@ a{
 .active_btn {
     background-color: rgb(107, 129, 189)!important;
 }
+.container .choose{
+    display: block;
+}
+.container .choose input{
+    border-radius: 5px;
+    border: none;
+    width: 220px;
+    height: 57px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 650px;
+    margin-top: 10px;
+    border: 3px solid #CFE7FF;
+    background-color: white;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.container .choose input:active{
+    border: 3px solid #007FFF;
+}

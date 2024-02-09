@@ -9,7 +9,7 @@ btn_1.addEventListener("click", ()=>{
         btn_2.classList.remove("active_btn")
         img.setAttribute("src", "./img/white.png")
         color_text.innerHTML = "White"
-        
+        price.innerHTML = "1999"
 })
 
 btn_2.addEventListener("click", ()=>{
@@ -17,4 +17,5 @@ btn_2.addEventListener("click", ()=>{
         btn_1.classList.remove("active_btn")
         img.setAttribute("src", "./img/grey.png")
         color_text.innerHTML = "Grey"
+        price.innerHTML = "2599"
 })
